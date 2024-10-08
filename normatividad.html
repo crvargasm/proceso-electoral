@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <style>
+    .custom-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .custom-list li {
+      position: relative;
+      padding-left: 20px;
+      padding-right: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .custom-list img {
+      width: 40px;
+      height: 40px;
+      margin-right: 20px;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      prefix: 'tw-',
+    }
+  </script>
+
+  <main>
+    <div class="tw-h-full tw-w-full tw-bg-no-repeat tw-bg-center tw-bg-cover tw-inset-0 tw-overflow-y-auto tw-bg-fixed"
+      style="background-image: url('/proceso-electoral/images/utils/background.jpg');">
+
+      <section id="banner" class="tw-relative">
+        <div class="tw-w-full">
+          <img src="/proceso-electoral/images/utils/banner.jpg"
+            alt="banner de presentación pagina elecciones estudiantiles 2024" class="tw-w-full">
+        </div>
+      </section>
+
+      <section class="tw-relative">
+        <div class="tw-flex tw-justify-center">
+          <div class="max-sm:tw-w-full tw-w-2/3">
+            <img src="/proceso-electoral/images/utils/normatividad-tittle.png" alt="titulo sección de normatividad"
+              class="tw-w-1/2 max-sm:tw-w-2/3">
+          </div>
+        </div>
+        <div class="tw-w-full tw-flex tw-justify-center max-sm:tw-mt-6 tw-mt-10">
+          <ul class="custom-list tw-w-1/2 max-sm:tw-w-11/12">
+            <a href="/proceso-electoral/images/docs/Resolucion3817.pdf" target="_blank" rel="noopener noreferrer"
+              title="Resolucion 2421 - 5 de Junio de 2024">
+              <li>
+                <img src="/proceso-electoral/images/icons/down.png" class="tw-h-full">
+                <span class="max-sm:tw-text-base tw-text-2xl max-sm:tw-m-0 tw-ml-4 tw-font-medium 2xl:tw-text-4xl">Resolución 3817 - 4 de Septiembre de 2024</span>
+              </li>
+            </a>
+            <br/>
+            <a href="/proceso-electoral/images/docs/Resultados_Revision_De_Requisitos_Minimos_Facultad_De_Ingenieria.pdf" target="_blank" rel="noopener noreferrer"
+              title="Resultados Revisión de Requisitos Minimos - 24 de septiembre de 2024">
+              <li>
+                <img src="/proceso-electoral/images/icons/down.png" class="tw-h-full">
+                <span class="max-sm:tw-text-base tw-text-2xl max-sm:tw-m-0 tw-ml-4 tw-font-medium 2xl:tw-text-4xl">Resultados Revisión de Requisitos Minimos - 24 de septiembre de 2024</span>
+              </li>
+            </a>
+          </ul>
+        </div>
+      </section>
+
+      
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/><br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    </div>
+  </main>
+
+
+
+</body>
+
+</html>
